@@ -4,7 +4,7 @@
   "extends": "airbnb",
   "rules": {
     "semi": [2, "never"],
-    "indent": [2, 2, { "SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1 }],
+    "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1 }],
     "comma-dangle": 0
   }
 }
