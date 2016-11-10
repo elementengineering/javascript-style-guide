@@ -1,10 +1,11 @@
-// Use this file as a starting point for your project's .eslintrc.
-// Copy this file, and add rule overrides as needed.
 {
-  "extends": "airbnb",
+  "extends": "airbnb-base",
   "rules": {
     "semi": [2, "never"],
     "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1 }],
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "arrow-parens": [1, "as-needed"],
+    "max-len": [1, 120],
+    "no-param-reassign": [1]
   }
 }
