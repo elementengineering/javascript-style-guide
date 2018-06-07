@@ -29,7 +29,7 @@
     "react",
     "jsx"
   ],
-  "author": "Blake Lovelace <blovelace@elementengineering.com.au>",
+  "author": "EEA's Software Team <software@elementengineering.com.au>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/elementengineering/javascript-style-guide/issues"
