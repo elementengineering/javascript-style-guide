@@ -1,0 +1,43 @@
+{
+    "extends": ["eslint:recommended", "ionic", "plugin:angular/johnpapa"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "rules": {
+        "semi": [1, "always", { "omitLastInOneLineBlock": true }],
+        "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1 }],
+        "comma-dangle": 0,
+        "arrow-parens": [1, "as-needed"],
+        "no-param-reassign": [1],
+        "no-console": 1,
+        "quote-props": [1, "as-needed"],
+        "curly": [1, "multi-or-nest", "consistent"],
+        "space-before-function-paren": ["error", {
+            "anonymous": "always",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
+        "angular/controller-name": [2,"/[A-Z].*Ctrl/"],
+        "angular/controller-as": 1,
+        "valid-jsdoc": 0
+    },
+    "globals": {
+        "angular": true,
+        "cordova": true,
+        "device": true,
+        "ble": true,
+        "FileTransfer": true,
+        "FileTransferError": true,
+        "zip": true
+    }
+}
