@@ -1,3 +1,4 @@
+// TODO: Rewrite and test after extending from airbnb
 {
     "extends": ["eslint:recommended", "ionic", "plugin:angular/johnpapa"],
     "parser": "babel-eslint",

@@ -1,11 +1,13 @@
 {
-  "extends": "airbnb-base",
-  "rules": {
-    "semi": [2, "never"],
-    "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1 }],
-    "comma-dangle": 0,
-    "arrow-parens": [1, "as-needed"],
-    "max-len": [1, 120],
-    "no-param-reassign": [1]
-  }
+    "extends": "airbnb",
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1 }],
+        "react/jsx-indent": [0],
+        "react/jsx-indent-props": [0],
+        "max-len": [1, 120],
+        "comma-dangle": 0,
+        "no-param-reassign": 1,
+        "no-console": [1, { "allow": ["warn", "error"] }],
+        "react/no-deprecated": 1,
+    },
 }
