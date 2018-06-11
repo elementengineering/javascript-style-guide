@@ -21,7 +21,8 @@
         "angular/controller-name": [2,"/[A-Z].*Ctrl/"],
         "angular/controller-as": 1,
         "valid-jsdoc": 0,
-        "no-plusplus": 0
+        "no-plusplus": 0,
+        "linebreak-style": 0
     },
     "globals": {
         "angular": true,
