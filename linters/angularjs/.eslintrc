@@ -22,7 +22,9 @@
         "angular/controller-as": 1,
         "valid-jsdoc": 0,
         "no-plusplus": 0,
-        "linebreak-style": 0
+        "linebreak-style": 0,
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+        "radix": ["error", "as-needed"]
     },
     "globals": {
         "angular": true,

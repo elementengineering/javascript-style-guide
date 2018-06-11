@@ -6,6 +6,8 @@
         "comma-dangle": 0,
         "no-param-reassign": 1,
         "no-console": [1, { "allow": ["warn", "error"] }],
-        "linebreak-style": 0
+        "linebreak-style": 0,
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "radix": ["error", "as-needed"]
     },
 }
