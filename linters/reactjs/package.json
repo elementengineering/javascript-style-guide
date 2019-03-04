@@ -1,5 +1,5 @@
 {
-  "name": "@eea/eslint-reactjs",
+  "name": "@eea/eslint-config-eslint-reactjs",
   "version": "1.0.0",
   "description": "EEA's extendable eslint config for reactjs",
   "main": "index.js",
@@ -17,7 +17,7 @@
   ],
   "author": "Blake Lovelace",
   "license": "ISC",
-  "peerDependencies": {
+  "peerDevDependencies": {
     "eslint": "^5.0.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.12.0",
