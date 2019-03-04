@@ -1,5 +1,5 @@
-modules.exports = {
-    extends: 'airbnb',
+module.exports = {
+    extends: require.resolve('eslint-config-airbnb'),
     env: {
         es6: true,
         browser: true,
