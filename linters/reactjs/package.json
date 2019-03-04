@@ -1,5 +1,5 @@
 {
-  "name": "@eea/eslint-config-eslint-reactjs",
+  "name": "@eea/eslint-config-reactjs",
   "version": "1.0.0",
   "description": "EEA's extendable eslint config for reactjs",
   "main": "index.js",
