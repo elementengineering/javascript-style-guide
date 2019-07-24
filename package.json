@@ -1,6 +1,6 @@
 {
   "name": "eea-javascript-style",
-  "version": "2.1.0",
+  "version": "2.0.0",
   "description": "EEA's Javascript Style Guide forked from Airbnb's Style Guide",
   "scripts": {
     "preinstall": "npm run install:config && npm run install:config:base",
