@@ -15,15 +15,13 @@
     },
     "rules": {
         "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1, "outerIIFEBody": 1 }],
-        "comma-dangle": 0,
         "no-param-reassign": [1],
         "no-console": 1,
         "angular/controller-name": [2,"/[A-Z].*Ctrl/"],
         "angular/controller-as": 1,
         "valid-jsdoc": 0,
-        "no-plusplus": 0,
         "linebreak-style": 0,
-        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
         "radix": ["error", "as-needed"]
     },
     "globals": {
