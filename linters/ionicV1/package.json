@@ -1,6 +1,6 @@
 {
   "name": "@eea/eslint-config-ionic-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "EEA's extendable eslint config for ionic v1 and angularjs",
   "main": "index.js",
   "scripts": {
