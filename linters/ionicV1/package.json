@@ -1,0 +1,27 @@
+{
+  "name": "@eea/eslint-config-ionic-v1",
+  "version": "1.0.0",
+  "description": "EEA's extendable eslint config for ionic v1 and angularjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elementengineering/javascript-style-guide/tree/master/linters/ionicV1"
+  },
+  "keywords": [
+    "eslint",
+    "reactjs",
+    "eea"
+  ],
+  "author": "Blake Lovelace",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-ionic": "^0.0.2",
+    "eslint-plugin-angular": "^4.0.1",
+    "eslint-plugin-import": "^2.18.0"
+  }
+}
