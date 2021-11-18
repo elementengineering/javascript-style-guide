@@ -19,6 +19,7 @@
         "no-plusplus": "off",
         "radix": ["error", "as-needed"],
         "react/jsx-indent": ["error", 4],
-        "react/jsx-indent-props": ["error", 4]
+        "react/jsx-indent-props": ["error", 4],
+        "react/react-in-jsx-scope": "off"
     }
 }
